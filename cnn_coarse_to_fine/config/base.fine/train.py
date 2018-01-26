@@ -73,7 +73,7 @@ if __name__ == '__main__':
     best_val_loss = 1e10
     for i in range(100000):
         # train
-        batch = dataset.next_batch(16)
+        batch = dataset.next_batch(8)
         feed_dict = {
             img: batch['img'],
             label: batch['label'],

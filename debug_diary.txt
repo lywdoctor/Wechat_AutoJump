@@ -1,0 +1,8 @@
+1.install opencv
+2.install adb
+3.add PATH  first create Android:C:\Users\lywdo\AppData\Local\Programs\Python\Python36\Scripts\ 
+  then create new sys_PATH:%Android%\platform-tools\
+4.python play.py --phone Android --sensitivity 2.045
+5.open the app manually
+
+1.26 当使用CUDA进行训练会出现OOM错误，需要手动调整batch的大小才能正常训练

@@ -4,7 +4,7 @@ import cv2
 
 class JumpData:
     def __init__(self):
-        self.data_dir = '/home/anjie/projects/we_jump/data'
+        self.data_dir = 'C:\\Users\\lywdo\\Documents\\git_code\\Wechat_AutoJump\\data'
         self.name_list = []
         self.get_name_list()
         self.val_name_list = self.name_list[:200]
